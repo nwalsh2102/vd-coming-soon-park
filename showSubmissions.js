@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("http://localhost:3000/submissions")
+    fetch("http://https://vd-coming-soon-park.onrender.com:3000/submissions")
     .then(response => response.json())
     .then(data => {
         let tableBody = document.getElementById("tableBody");
