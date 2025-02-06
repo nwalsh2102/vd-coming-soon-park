@@ -1,0 +1,43 @@
+body {
+    background-color: aliceblue;
+    font-family: montserrat;
+}
+
+.header, .subHeader {
+    text-align: center;
+}
+
+.form {
+    background: black;
+    color: white;
+}
+
+.form p {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.formSoon {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.button {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#result {
+    margin-top: 45px;
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
