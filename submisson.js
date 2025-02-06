@@ -9,7 +9,7 @@ document.getElementById("comingSoonForm").addEventListener("submit", function(ev
         document.getElementById("result").hidden = false;
 
         // Adding option to data.json file
-        fetch("http://https://vd-coming-soon-park.onrender.com:3000/submit", { // localhost --> domain
+        fetch("https://api.vero-design.com:3000/submit", { // localhost --> domain
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ option: selectedOption.value })
@@ -41,7 +41,7 @@ document.getElementById("comingSoonForm").addEventListener("reset", function(eve
 // Function to put submissions onto a list
 
 function fetchSubmissions() {
-    fetch("http://https://vd-coming-soon-park.onrender.com:3000/submissions")
+    fetch("https://api.vero-design.com/submissions")
     .then(response => response.json())
     .then(data => {
         let list = document.getElementById("submissionsList");
