@@ -41,7 +41,7 @@ document.getElementById("comingSoonForm").addEventListener("reset", function(eve
 // Function to put submissions onto a list
 
 function fetchSubmissions() {
-    fetch("https://api.vero-design.com/submissions")
+    fetch("http://https://vd-coming-soon-park.onrender.com/submissions")
     .then(response => response.json())
     .then(data => {
         let list = document.getElementById("submissionsList");
